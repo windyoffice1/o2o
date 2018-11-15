@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.windyoffice.dao.AreaDao">
+<mapper namespace="com.windyoffice.o2o.dao.AreaDao">
 	<select id="queryArea" resultType="com.windyoffice.o2o.entity.Area">
 		SELECT
 		area_id,
